@@ -1,7 +1,10 @@
 ---
 title: Master’s Thesis - Time-Sequential Wind Dancing Signal Anomaly Detection
 date: 2023-04-18 07:15:59
-tags:
+tags: 
+    - Machine Learning
+    - Deep Learning
+categories: Research Projects
 ---
 ### <center><font face="Times">Master’s Thesis : Time-Sequential Wind Dancing Signal Anomaly Detection</font></center>
 <center><font face="Times" color=gray>Xiaonan Wang</font></center>
