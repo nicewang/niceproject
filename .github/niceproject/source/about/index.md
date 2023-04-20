@@ -3,7 +3,7 @@ title: About
 date: 2023-04-19 08:30:08
 ---
 
-#### <center><font face="Times">About NiceWang's Research Projects and Industry Experience</font></center>
+#### <center><font face="Times">Pages About Research Projects and Industry Experience</font></center>
 <center><font face="Times">© Xiaonan Wang (Nice Wang)</font></center> &nbsp
 
 
