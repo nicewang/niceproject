@@ -4,6 +4,7 @@ date: 2023-04-18 07:15:59
 tags: 
     - Machine Learning
     - Deep Learning
+    - Research at UESTC
 categories: Research Projects
 ---
 ### <center><font face="Times">Master’s Thesis : Time-Sequential Wind Dancing Signal Anomaly Detection</font></center>
