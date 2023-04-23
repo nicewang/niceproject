@@ -6,6 +6,7 @@ tags:
     - Deep Learning
     - Research at UESTC
     - Master’s Thesis
+    - Poster
 categories: Research Projects
 ---
 ### <center><font face="Times">Master’s Thesis : Time-Sequential Wind Dancing Signal Anomaly Detection</font></center>
