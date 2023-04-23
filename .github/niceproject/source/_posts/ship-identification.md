@@ -19,6 +19,9 @@ categories: Research Projects
 
 #### <font face="Times">2. Model</font>
 
+<font face="Times" size=2>Based on SSD, reference:</font>
+<font face="Times" size=2>[1] Liu, Wei, et al. "Ssd: Single shot multibox detector." Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14. Springer International Publishing, 2016.</font>
+
 ##### <font face="Times">Step 1: Train on COCO trainval35k</font>
 
 {% asset_img 2_1.png Model : Step 1: Train on COCO trainval35k %}
