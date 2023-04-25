@@ -1,5 +1,5 @@
 ---
-title: Attention Pooling for Semantic Session and Neural-Gate Neuron Routing
+title: Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing
 date: 2023-04-24 00:57:52
 tags:
     - Search and Ads
@@ -19,3 +19,7 @@ categories: Industry Experience
 ##### <font face="Times">2.1 Base</font>
 
 {% asset_img 2_1.png Semantic Attention Pooling : Base %}
+
+##### <font face="Times">2.2 Semantic Attention Pooling</font>
+
+{% asset_img 2_2.png Semantic Attention Pooling %}
