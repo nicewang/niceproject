@@ -8,3 +8,14 @@ tags:
     - CTR Estimation
 categories: Industry Experience
 ---
+### <center><font face="Times">Attention Pooling for Semantic Session and Neural-Gate Neuron Routing</font></center>
+
+#### <font face="Times">1. Ranking Model Structure</font>
+
+{% asset_img 1.png Ranking Model Structure %}
+
+#### <font face="Times">2. Semantic Attention Pooling</font>
+
+##### <font face="Times">2.1 Base</font>
+
+{% asset_img 2_1.png Semantic Attention Pooling : Base %}
