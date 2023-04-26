@@ -22,4 +22,8 @@ categories: Industry Experience
 
 ##### <font face="Times">2.2 Semantic Attention Pooling</font>
 
-{% asset_img 2_2.png Semantic Attention Pooling %}
+{% asset_img 2_2.png Semantic Attention Pooling %} &nbsp
+
+<font face="Times">Semantic Attention Layer:</font>
+
+{% asset_img 2_3.png Semantic Attention Pooling : Semantic Attention Layer %}
