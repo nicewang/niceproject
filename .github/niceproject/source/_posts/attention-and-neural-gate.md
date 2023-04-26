@@ -27,3 +27,7 @@ categories: Industry Experience
 <font face="Times">Semantic Attention Layer:</font>
 
 {% asset_img 2_3.png Semantic Attention Pooling : Semantic Attention Layer %}
+
+#### <font face="Times">3. Neural-Gate Neuron Routing</font>
+
+{% asset_img 3.png Neural-Gate Neuron Routing %}
