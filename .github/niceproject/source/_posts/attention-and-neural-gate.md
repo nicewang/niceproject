@@ -31,3 +31,11 @@ categories: Industry Experience
 #### <font face="Times">3. Neural-Gate Neuron Routing</font>
 
 {% asset_img 3.png Neural-Gate Neuron Routing %}
+
+#### <font face="Times">4. Summarization</font>
+
+{% asset_img 4.png Summarization %}
+
+#### <font face="Times">[PDF Download](https://nicewang.github.io/niceproject/docs/semantic_attention_and_neural_gate.pdf)</font>
+
+{% pdf ./semantic_attention_and_neural_gate.pdf %}
