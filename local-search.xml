@@ -20,6 +20,8 @@
     
     <tags>
       
+      <tag>Poster</tag>
+      
       <tag>Search and Ads</tag>
       
       <tag>Graph</tag>
@@ -37,7 +39,7 @@
     <link href="/niceproject/2023/04/27/ernie-recall/"/>
     <url>/niceproject/2023/04/27/ernie-recall/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h4 id="0-Base-Model"><a href="#0-Base-Model" class="headerlink" title="0. Base Model"></a><font face="Times">0. Base Model</font></h4><p><font face="Times" size=2><div style="text-align: justify">Ernie, reference: Sun, Yu, et al. “Ernie: Enhanced representation through knowledge integration.” arXiv preprint arXiv:1904.09223 (2019).</div></font></p>]]></content>
     
     
     <categories>
@@ -48,6 +50,8 @@
     
     
     <tags>
+      
+      <tag>Poster</tag>
       
       <tag>Search and Ads</tag>
       
@@ -79,6 +83,8 @@
     <tags>
       
       <tag>Deep Learning</tag>
+      
+      <tag>Poster</tag>
       
       <tag>Search and Ads</tag>
       

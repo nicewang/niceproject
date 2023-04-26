@@ -6,6 +6,7 @@ tags:
     - Attention Mechanism
     - Deep Learning
     - CTR Estimation
+    - Poster
 categories: Industry Experience
 ---
 ### <center><font face="Times">Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing</font></center>

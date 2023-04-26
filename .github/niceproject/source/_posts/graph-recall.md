@@ -5,5 +5,6 @@ tags:
     - Search and Ads
     - Graph
     - Recalling
+    - Poster
 categories: Industry Experience
 ---
