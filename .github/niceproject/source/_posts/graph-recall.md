@@ -8,3 +8,6 @@ tags:
     - Poster
 categories: Industry Experience
 ---
+### <center><font face="Times">Graph-Based Recalling</font></center>
+
+{% asset_img 1.png Graph-Based Recalling %}
