@@ -39,7 +39,7 @@
     <link href="/niceproject/2023/04/27/ernie-recall/"/>
     <url>/niceproject/2023/04/27/ernie-recall/</url>
     
-    <content type="html"><![CDATA[<h4 id="0-Base-Model"><a href="#0-Base-Model" class="headerlink" title="0. Base Model"></a><font face="Times">0. Base Model</font></h4><p><font face="Times" size=2><div style="text-align: justify">Ernie, reference: Sun, Yu, et al. “Ernie: Enhanced representation through knowledge integration.” arXiv preprint arXiv:1904.09223 (2019).</div></font></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="Base-Model"><a href="#Base-Model" class="headerlink" title="Base Model"></a><font face="Times">Base Model</font></h4><p><font face="Times" size=2><div style="text-align: justify">Ernie, reference: Sun, Yu, et al. “Ernie: Enhanced representation through knowledge integration.” arXiv preprint arXiv:1904.09223 (2019).</div></font></p><h4 id="Version-1-Ernie-Single-Tower-Recalling"><a href="#Version-1-Ernie-Single-Tower-Recalling" class="headerlink" title="Version 1: Ernie Single Tower Recalling"></a><font face="Times">Version 1: Ernie Single Tower Recalling</font></h4><img src="/niceproject/2023/04/27/ernie-recall/1_1.png" class="" title="Ernie Single Tower Recalling"> &nbsp<img src="/niceproject/2023/04/27/ernie-recall/1_2.png" class="" title="Ernie Single Tower Recalling : Summarization"><h4 id="Version-2-Ernie-Two-Tower-Recalling"><a href="#Version-2-Ernie-Two-Tower-Recalling" class="headerlink" title="Version 2: Ernie Two Tower Recalling"></a><font face="Times">Version 2: Ernie Two Tower Recalling</font></h4><img src="/niceproject/2023/04/27/ernie-recall/2_1.png" class="" title="Ernie Two Tower Recalling : 1"> &nbsp<img src="/niceproject/2023/04/27/ernie-recall/2_2.png" class="" title="Ernie Two Tower Recalling : 2"><h4 id="PDF-Download"><a href="#PDF-Download" class="headerlink" title="PDF Download"></a><font face="Times"><a href="https://nicewang.github.io/niceproject/docs/ernie_based_recalling.pdf">PDF Download</a></font></h4><div class="row">    <embed src="./ernie_based_recalling.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
     <categories>
@@ -91,6 +91,8 @@
       <tag>Attention Mechanism</tag>
       
       <tag>CTR Estimation</tag>
+      
+      <tag>Ranking</tag>
       
     </tags>
     
