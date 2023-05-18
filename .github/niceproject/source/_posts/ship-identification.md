@@ -37,6 +37,13 @@ categories: Research Projects
 
 {% asset_img 3.png Innovation and Discussion %} &nbsp
 
+<font face="Times" size=2><div style="text-align: justify">Discussions Supplements</div></font>
+
+* <font face="Times" size=2><div style="text-align: justify">20230518</div></font>
+    * <font face="Times" size=2><div style="text-align: justify">Anchor Free Methods</div></font>
+    * <font face="Times" size=2><div style="text-align: justify">Oriented Bounding Box</div></font>
+    * <font face="Times" size=2><div style="text-align: justify">Some Reference: mmdetection</div></font>
+
 #### <font face="Times">[PDF Download](https://nicewang.github.io/niceproject/docs/ship_identification_17.pdf)</font>
 
 {% pdf ./ship_identification_17.pdf %}
