@@ -9,6 +9,10 @@ date: 2023-05-08 18:38:39
 
 &emsp;&emsp;<font face="Times">[Data-Efficient LTL Translators](https://nicewang.github.io/niceproject/learning/robotics/data_efficient_ltl_translators.pdf)</font>
 
+#### <font face="Times">2022</font>
+
+&emsp;&emsp;<font face="Times">[SAILOR](https://nicewang.github.io/niceproject/learning/robotics/sailor.pdf)</font>
+
 #### <font face="Times">2021</font>
 
 &emsp;&emsp;<font face="Times">[LMTD-RRT](https://nicewang.github.io/niceproject/learning/robotics/lmtd_rrt.pdf)</font>
