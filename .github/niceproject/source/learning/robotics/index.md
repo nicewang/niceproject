@@ -5,6 +5,8 @@ date: 2023-05-08 18:38:39
 
 #### <font face="Times">2023</font>
 
+&emsp;&emsp;<font face="Times">[VIMA](https://nicewang.github.io/niceproject/learning/robotics/vima.pdf)</font>
+
 &emsp;&emsp;<font face="Times">[PRELUDE](https://nicewang.github.io/niceproject/learning/robotics/prelude.pdf)</font>
 
 &emsp;&emsp;<font face="Times">[Data-Efficient LTL Translators](https://nicewang.github.io/niceproject/learning/robotics/data_efficient_ltl_translators.pdf)</font>
