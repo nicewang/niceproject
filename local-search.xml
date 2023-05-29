@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Graph-Based Recalling</title>
+    <link href="/niceproject/2023/04/27/graph-recall/"/>
+    <url>/niceproject/2023/04/27/graph-recall/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Graph-Based-Recalling"><a href="#Graph-Based-Recalling" class="headerlink" title="Graph-Based Recalling"></a><center><font face="Times">Graph-Based Recalling</font></center></h3><img src="/niceproject/2023/04/27/graph-recall/1.png" class="" title="Graph-Based Recalling">]]></content>
+    
+    
+    <categories>
+      
+      <category>Industry Experience</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Poster</tag>
+      
+      <tag>Search and Ads</tag>
+      
+      <tag>Graph</tag>
+      
+      <tag>Recalling</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ernie-Based Recalling</title>
+    <link href="/niceproject/2023/04/27/ernie-recall/"/>
+    <url>/niceproject/2023/04/27/ernie-recall/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Ernie-Based-Recalling"><a href="#Ernie-Based-Recalling" class="headerlink" title="Ernie-Based Recalling"></a><center><font face="Times">Ernie-Based Recalling</font></center></h3><h4 id="Base-Model"><a href="#Base-Model" class="headerlink" title="Base Model"></a><font face="Times">Base Model</font></h4><p><font face="Times" size=2><div style="text-align: justify">Ernie, reference: Sun, Yu, et al. “Ernie: Enhanced representation through knowledge integration.” arXiv preprint arXiv:1904.09223 (2019).</div></font></p><h4 id="Version-1-Ernie-Single-Tower-Recalling"><a href="#Version-1-Ernie-Single-Tower-Recalling" class="headerlink" title="Version 1: Ernie Single Tower Recalling"></a><font face="Times">Version 1: Ernie Single Tower Recalling</font></h4><img src="/niceproject/2023/04/27/ernie-recall/1_1.png" class="" title="Ernie Single Tower Recalling"> &nbsp<img src="/niceproject/2023/04/27/ernie-recall/1_2.png" class="" title="Ernie Single Tower Recalling : Summarization"><h4 id="Version-2-Ernie-Two-Tower-Recalling"><a href="#Version-2-Ernie-Two-Tower-Recalling" class="headerlink" title="Version 2: Ernie Two Tower Recalling"></a><font face="Times">Version 2: Ernie Two Tower Recalling</font></h4><img src="/niceproject/2023/04/27/ernie-recall/2_1.png" class="" title="Ernie Two Tower Recalling : 1"> &nbsp<img src="/niceproject/2023/04/27/ernie-recall/2_2.png" class="" title="Ernie Two Tower Recalling : 2"><h4 id="PDF-Download"><a href="#PDF-Download" class="headerlink" title="PDF Download"></a><font face="Times"><a href="https://nicewang.github.io/niceproject/docs/ernie_based_recalling.pdf">PDF Download</a></font></h4><div class="row">    <embed src="./ernie_based_recalling.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>Industry Experience</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Poster</tag>
+      
+      <tag>Search and Ads</tag>
+      
+      <tag>Recalling</tag>
+      
+      <tag>NLP</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing</title>
+    <link href="/niceproject/2023/04/24/attention-and-neural-gate/"/>
+    <url>/niceproject/2023/04/24/attention-and-neural-gate/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Attention-Pooling-for-Semantic-Sessions-and-Neural-Gate-Neuron-Routing"><a href="#Attention-Pooling-for-Semantic-Sessions-and-Neural-Gate-Neuron-Routing" class="headerlink" title="Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing"></a><center><font face="Times">Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing</font></center></h3><h4 id="1-Ranking-Model-Structure"><a href="#1-Ranking-Model-Structure" class="headerlink" title="1. Ranking Model Structure"></a><font face="Times">1. Ranking Model Structure</font></h4><img src="/niceproject/2023/04/24/attention-and-neural-gate/1.png" class="" title="Ranking Model Structure"><h4 id="2-Semantic-Attention-Pooling"><a href="#2-Semantic-Attention-Pooling" class="headerlink" title="2. Semantic Attention Pooling"></a><font face="Times">2. Semantic Attention Pooling</font></h4><h5 id="2-1-Base"><a href="#2-1-Base" class="headerlink" title="2.1 Base"></a><font face="Times">2.1 Base</font></h5><img src="/niceproject/2023/04/24/attention-and-neural-gate/2_1.png" class="" title="Semantic Attention Pooling : Base"><h5 id="2-2-Semantic-Attention-Pooling"><a href="#2-2-Semantic-Attention-Pooling" class="headerlink" title="2.2 Semantic Attention Pooling"></a><font face="Times">2.2 Semantic Attention Pooling</font></h5><img src="/niceproject/2023/04/24/attention-and-neural-gate/2_2.png" class="" title="Semantic Attention Pooling"> &nbsp<p><font face="Times">Semantic Attention Layer:</font></p><img src="/niceproject/2023/04/24/attention-and-neural-gate/2_3.png" class="" title="Semantic Attention Pooling : Semantic Attention Layer"><h4 id="3-Neural-Gate-Neuron-Routing"><a href="#3-Neural-Gate-Neuron-Routing" class="headerlink" title="3. Neural-Gate Neuron Routing"></a><font face="Times">3. Neural-Gate Neuron Routing</font></h4><img src="/niceproject/2023/04/24/attention-and-neural-gate/3.png" class="" title="Neural-Gate Neuron Routing"><h4 id="4-Summarization"><a href="#4-Summarization" class="headerlink" title="4. Summarization"></a><font face="Times">4. Summarization</font></h4><img src="/niceproject/2023/04/24/attention-and-neural-gate/4.png" class="" title="Summarization"><h4 id="PDF-Download"><a href="#PDF-Download" class="headerlink" title="PDF Download"></a><font face="Times"><a href="https://nicewang.github.io/niceproject/docs/semantic_attention_and_neural_gate.pdf">PDF Download</a></font></h4><div class="row">    <embed src="./semantic_attention_and_neural_gate.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>Industry Experience</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Deep Learning</tag>
+      
+      <tag>Poster</tag>
+      
+      <tag>Search and Ads</tag>
+      
+      <tag>Attention Mechanism</tag>
+      
+      <tag>CTR Estimation</tag>
+      
+      <tag>Ranking</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ship Identification - Ship Detection of Images by SSD with Dehazing</title>
+    <link href="/niceproject/2023/04/19/ship-identification/"/>
+    <url>/niceproject/2023/04/19/ship-identification/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Ship-Identification-Ship-Detection-of-Images-by-SSD-with-Dehazing"><a href="#Ship-Identification-Ship-Detection-of-Images-by-SSD-with-Dehazing" class="headerlink" title="Ship Identification: Ship Detection of Images by SSD with Dehazing"></a><center><font face="Times">Ship Identification: Ship Detection of Images by SSD with Dehazing</font></center></h3><center><font face="Times" color=gray>Xiaonan Wang</font></center><center><font face="Times" color=gray>Research Project at UESTC</font></center><center><font face="Times" color=gray>2017.12</font></center><center><font face="Times" color=gray size=2>(Reorganized and Translated in 2023.04)</font></center><h4 id="1-Data"><a href="#1-Data" class="headerlink" title="1. Data"></a><font face="Times">1. Data</font></h4><img src="/niceproject/2023/04/19/ship-identification/1.png" class="" title="Data"><h4 id="2-Model"><a href="#2-Model" class="headerlink" title="2. Model"></a><font face="Times">2. Model</font></h4><p><font face="Times" size=2><div style="text-align: justify">Based on SSD, reference: [1] Liu, Wei, et al. “Ssd: Single shot multibox detector.” Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14. Springer International Publishing, 2016.</div></font></p><h5 id="Step-1-Train-on-COCO-trainval35k"><a href="#Step-1-Train-on-COCO-trainval35k" class="headerlink" title="Step 1: Train on COCO trainval35k"></a><font face="Times">Step 1: Train on COCO trainval35k</font></h5><img src="/niceproject/2023/04/19/ship-identification/2_1.png" class="" title="Model : Step 1: Train on COCO trainval35k"><h5 id="Step-2-Fine-tune-on-Small-Ships-Set-Dense-Sampling"><a href="#Step-2-Fine-tune-on-Small-Ships-Set-Dense-Sampling" class="headerlink" title="Step 2: Fine-tune on Small Ships Set (Dense Sampling)"></a><font face="Times">Step 2: Fine-tune on Small Ships Set (Dense Sampling)</font></h5><img src="/niceproject/2023/04/19/ship-identification/2_2.png" class="" title="Model : Step 2: Fine-tune on Small Ships Set (Dense Sampling)"><h5 id="Step-3-Fine-tune-on-Large-Ships-Set-Sparse-Sampling"><a href="#Step-3-Fine-tune-on-Large-Ships-Set-Sparse-Sampling" class="headerlink" title="Step 3: Fine-tune on Large Ships Set (Sparse Sampling)"></a><font face="Times">Step 3: Fine-tune on Large Ships Set (Sparse Sampling)</font></h5><img src="/niceproject/2023/04/19/ship-identification/2_3.png" class="" title="Model : Step 3: Fine-tune on Large Ships Set (Sparse Sampling)"><h4 id="3-Innovation-and-Discussion"><a href="#3-Innovation-and-Discussion" class="headerlink" title="3. Innovation and Discussion"></a><font face="Times">3. Innovation and Discussion</font></h4><img src="/niceproject/2023/04/19/ship-identification/3.png" class="" title="Innovation and Discussion"> &nbsp<p><font face="Times" size=2><div style="text-align: justify">Discussions Supplements</div></font></p><ul><li><font face="Times" size=2><div style="text-align: justify">20230518</div></font><ul><li><font face="Times" size=2><div style="text-align: justify">Anchor Free Methods</div></font></li><li><font face="Times" size=2><div style="text-align: justify">Oriented Bounding Box</div></font></li><li><font face="Times" size=2><div style="text-align: justify">Some Reference: mmdetection</div></font></li></ul></li></ul><h4 id="PDF-Download"><a href="#PDF-Download" class="headerlink" title="PDF Download"></a><font face="Times"><a href="https://nicewang.github.io/niceproject/docs/ship_identification_17.pdf">PDF Download</a></font></h4><div class="row">    <embed src="./ship_identification_17.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>Research Projects</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Computer Vision</tag>
+      
+      <tag>Research at UESTC</tag>
+      
+      <tag>Poster</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Master’s Thesis - Time-Sequential Wind Dancing Signal Anomaly Detection</title>
+    <link href="/niceproject/2023/04/18/master-thesis/"/>
+    <url>/niceproject/2023/04/18/master-thesis/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Master’s-Thesis-Time-Sequential-Wind-Dancing-Signal-Anomaly-Detection"><a href="#Master’s-Thesis-Time-Sequential-Wind-Dancing-Signal-Anomaly-Detection" class="headerlink" title="Master’s Thesis : Time-Sequential Wind Dancing Signal Anomaly Detection"></a><center><font face="Times">Master’s Thesis : Time-Sequential Wind Dancing Signal Anomaly Detection</font></center></h3><center><font face="Times" color=gray>Xiaonan Wang</font></center><center><font face="Times" color=gray>University of Electronic Science and Technology of China</font></center><center><font face="Times" color=gray>2018.06</font></center><center><font face="Times" color=gray size=2>(Reorganized and Translated in 2023.04)</font></center><h4 id="0-Overview"><a href="#0-Overview" class="headerlink" title="0. Overview"></a><font face="Times">0. Overview</font></h4><img src="/niceproject/2023/04/18/master-thesis/0.png" class="" title="Overview"><h4 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1. Introduction"></a><font face="Times">1. Introduction</font></h4><img src="/niceproject/2023/04/18/master-thesis/1.png" class="" title="Introduction"><h4 id="2-Wind-Dancing-Monitoring-System"><a href="#2-Wind-Dancing-Monitoring-System" class="headerlink" title="2. Wind Dancing Monitoring System"></a><font face="Times">2. Wind Dancing Monitoring System</font></h4><img src="/niceproject/2023/04/18/master-thesis/2.png" class="" title="Wind Dancing Monitoring System"><h4 id="3-Benchmark-Dataset"><a href="#3-Benchmark-Dataset" class="headerlink" title="3. Benchmark Dataset"></a><font face="Times">3. Benchmark Dataset</font></h4><img src="/niceproject/2023/04/18/master-thesis/3.png" class="" title="Benchmark Dataset"><h4 id="4-Feature-Engineering"><a href="#4-Feature-Engineering" class="headerlink" title="4. Feature Engineering"></a><font face="Times">4. Feature Engineering</font></h4><img src="/niceproject/2023/04/18/master-thesis/4_1.png" class="" title="Feature Engineering : Overview"><h5 id="4-1-Frequency-Domain-Feature"><a href="#4-1-Frequency-Domain-Feature" class="headerlink" title="4.1 Frequency-Domain Feature"></a><font face="Times">4.1 Frequency-Domain Feature</font></h5><img src="/niceproject/2023/04/18/master-thesis/4_2.png" class="" title="Feature Engineering : Frequency-Domain Feature"><h5 id="4-2-Time-Domain-Feature-and-BNSWP"><a href="#4-2-Time-Domain-Feature-and-BNSWP" class="headerlink" title="4.2 Time-Domain Feature and BNSWP"></a><font face="Times">4.2 Time-Domain Feature and BNSWP</font></h5><img src="/niceproject/2023/04/18/master-thesis/4_3.png" class="" title="Feature Engineering : Time-Domain Feature - 1"> &nbsp<img src="/niceproject/2023/04/18/master-thesis/4_5.png" class="" title="Feature Engineering : Time-Domain Feature - 2"><h5 id="4-3-Feature-Fusion-amp-Data-Augmentation"><a href="#4-3-Feature-Fusion-amp-Data-Augmentation" class="headerlink" title="4.3 Feature Fusion &amp; Data Augmentation"></a><font face="Times">4.3 Feature Fusion &amp; Data Augmentation</font></h5><img src="/niceproject/2023/04/18/master-thesis/4_6.png" class="" title="Feature Engineering : Feature Fusion &amp; Data Augmentation"><h4 id="5-Time-Sequential-Detection-and-Prediction"><a href="#5-Time-Sequential-Detection-and-Prediction" class="headerlink" title="5. Time-Sequential Detection and Prediction"></a><font face="Times">5. Time-Sequential Detection and Prediction</font></h4><h5 id="5-1-Detection-CNN-Classifier"><a href="#5-1-Detection-CNN-Classifier" class="headerlink" title="5.1 Detection: CNN Classifier"></a><font face="Times">5.1 Detection: CNN Classifier</font></h5><img src="/niceproject/2023/04/18/master-thesis/5.png" class="" title="Time-Sequential Detection and Prediction : Detection: CNN Classifier - 1"> &nbsp<img src="/niceproject/2023/04/18/master-thesis/5_2.png" class="" title="Time-Sequential Detection and Prediction : Detection: CNN Classifier - 2"> &nbsp<img src="/niceproject/2023/04/18/master-thesis/5_3.png" class="" title="Time-Sequential Detection and Prediction : Detection: CNN Classifier - 3"> &nbsp<img src="/niceproject/2023/04/18/master-thesis/5_4.png" class="" title="Time-Sequential Detection and Prediction : Detection: CNN Classifier - 4"><h5 id="5-2-Prediction-RNN-Predictor"><a href="#5-2-Prediction-RNN-Predictor" class="headerlink" title="5.2 Prediction: RNN Predictor"></a><font face="Times">5.2 Prediction: RNN Predictor</font></h5><img src="/niceproject/2023/04/18/master-thesis/5_5.png" class="" title="Time-Sequential Detection and Prediction : Prediction: RNN Predictor"><h5 id="5-3-Combine-Classification-and-Prediction-in-Online-Inference"><a href="#5-3-Combine-Classification-and-Prediction-in-Online-Inference" class="headerlink" title="5.3 Combine Classification and Prediction in Online Inference"></a><font face="Times">5.3 Combine Classification and Prediction in Online Inference</font></h5><img src="/niceproject/2023/04/18/master-thesis/5_6.png" class="" title="Time-Sequential Detection and Prediction : Combine Classification and Prediction in Online Inference"><h4 id="6-Conclusion-and-Future-Work"><a href="#6-Conclusion-and-Future-Work" class="headerlink" title="6. Conclusion and Future Work"></a><font face="Times">6. Conclusion and Future Work</font></h4><img src="/niceproject/2023/04/18/master-thesis/6_1.png" class="" title="Conclusion and Future Work - 1"> &nbsp<img src="/niceproject/2023/04/18/master-thesis/6_2.png" class="" title="Conclusion and Future Work - 2"><h4 id="PDF-Download"><a href="#PDF-Download" class="headerlink" title="PDF Download"></a><font face="Times"><a href="https://nicewang.github.io/niceproject/docs/master_thesis_time_sequential_wind_dancing_signal_anomaly_detection.pdf">PDF Download</a></font></h4><div class="row">    <embed src="./master_thesis_time_sequential_wind_dancing_signal_anomaly_detection.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>Research Projects</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Machine Learning</tag>
+      
+      <tag>Deep Learning</tag>
+      
+      <tag>Research at UESTC</tag>
+      
+      <tag>Master’s Thesis</tag>
+      
+      <tag>Poster</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

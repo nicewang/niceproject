@@ -1,0 +1,689 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/niceproject/img/nice_icon_1.jpg">
+  <link rel="icon" href="/niceproject/img/nice_icon_1.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="NiceWang">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing1. Ranking Model Structure  2. Semantic Attention Pooling2.1 Base  2.2 Semantic Attention Pooling &amp;nbsp  Semantic Attention Layer:">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing">
+<meta property="og:url" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/index.html">
+<meta property="og:site_name" content="NiceWang&#39;s Projects">
+<meta property="og:description" content="Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing1. Ranking Model Structure  2. Semantic Attention Pooling2.1 Base  2.2 Semantic Attention Pooling &amp;nbsp  Semantic Attention Layer:">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/1.png">
+<meta property="og:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/2_1.png">
+<meta property="og:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/2_2.png">
+<meta property="og:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/2_3.png">
+<meta property="og:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/3.png">
+<meta property="og:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/4.png">
+<meta property="article:published_time" content="2023-04-23T16:57:52.000Z">
+<meta property="article:modified_time" content="2023-04-27T08:27:18.403Z">
+<meta property="article:author" content="NiceWang">
+<meta property="article:tag" content="Deep Learning">
+<meta property="article:tag" content="Poster">
+<meta property="article:tag" content="Search and Ads">
+<meta property="article:tag" content="Attention Mechanism">
+<meta property="article:tag" content="CTR Estimation">
+<meta property="article:tag" content="Ranking">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/1.png">
+  
+  
+  
+  <title>Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing - NiceWang&#39;s Projects</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/niceproject/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/niceproject/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/niceproject/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"nicewang.github.io","root":"/niceproject/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/niceproject/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/niceproject/js/utils.js" ></script>
+  <script  src="/niceproject/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/niceproject/">
+      <strong>NiceWang&#39;s Projects</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/niceproject/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/niceproject/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/niceproject/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/niceproject/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/niceproject/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/niceproject/img/nice_project.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-04-24 00:57" pubdate>
+          April 24, 2023 am
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          225 words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          2 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h3 id="Attention-Pooling-for-Semantic-Sessions-and-Neural-Gate-Neuron-Routing"><a href="#Attention-Pooling-for-Semantic-Sessions-and-Neural-Gate-Neuron-Routing" class="headerlink" title="Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing"></a><center><font face="Times">Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing</font></center></h3><h4 id="1-Ranking-Model-Structure"><a href="#1-Ranking-Model-Structure" class="headerlink" title="1. Ranking Model Structure"></a><font face="Times">1. Ranking Model Structure</font></h4><img src="/niceproject/2023/04/24/attention-and-neural-gate/1.png" srcset="/niceproject/img/loading.gif" lazyload class="" title="Ranking Model Structure">
+
+<h4 id="2-Semantic-Attention-Pooling"><a href="#2-Semantic-Attention-Pooling" class="headerlink" title="2. Semantic Attention Pooling"></a><font face="Times">2. Semantic Attention Pooling</font></h4><h5 id="2-1-Base"><a href="#2-1-Base" class="headerlink" title="2.1 Base"></a><font face="Times">2.1 Base</font></h5><img src="/niceproject/2023/04/24/attention-and-neural-gate/2_1.png" srcset="/niceproject/img/loading.gif" lazyload class="" title="Semantic Attention Pooling : Base">
+
+<h5 id="2-2-Semantic-Attention-Pooling"><a href="#2-2-Semantic-Attention-Pooling" class="headerlink" title="2.2 Semantic Attention Pooling"></a><font face="Times">2.2 Semantic Attention Pooling</font></h5><img src="/niceproject/2023/04/24/attention-and-neural-gate/2_2.png" srcset="/niceproject/img/loading.gif" lazyload class="" title="Semantic Attention Pooling"> &nbsp
+
+<p><font face="Times">Semantic Attention Layer:</font></p>
+<img src="/niceproject/2023/04/24/attention-and-neural-gate/2_3.png" srcset="/niceproject/img/loading.gif" lazyload class="" title="Semantic Attention Pooling : Semantic Attention Layer">
+
+<h4 id="3-Neural-Gate-Neuron-Routing"><a href="#3-Neural-Gate-Neuron-Routing" class="headerlink" title="3. Neural-Gate Neuron Routing"></a><font face="Times">3. Neural-Gate Neuron Routing</font></h4><img src="/niceproject/2023/04/24/attention-and-neural-gate/3.png" srcset="/niceproject/img/loading.gif" lazyload class="" title="Neural-Gate Neuron Routing">
+
+<h4 id="4-Summarization"><a href="#4-Summarization" class="headerlink" title="4. Summarization"></a><font face="Times">4. Summarization</font></h4><img src="/niceproject/2023/04/24/attention-and-neural-gate/4.png" srcset="/niceproject/img/loading.gif" lazyload class="" title="Summarization">
+
+<h4 id="PDF-Download"><a href="#PDF-Download" class="headerlink" title="PDF Download"></a><font face="Times"><a href="https://nicewang.github.io/niceproject/docs/semantic_attention_and_neural_gate.pdf">PDF Download</a></font></h4>
+
+	<div class="row">
+    <embed src="./semantic_attention_and_neural_gate.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/niceproject/categories/Industry-Experience/" class="category-chain-item">Industry Experience</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/niceproject/tags/Deep-Learning/">#Deep Learning</a>
+      
+        <a href="/niceproject/tags/Poster/">#Poster</a>
+      
+        <a href="/niceproject/tags/Search-and-Ads/">#Search and Ads</a>
+      
+        <a href="/niceproject/tags/Attention-Mechanism/">#Attention Mechanism</a>
+      
+        <a href="/niceproject/tags/CTR-Estimation/">#CTR Estimation</a>
+      
+        <a href="/niceproject/tags/Ranking/">#Ranking</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Attention Pooling for Semantic Sessions and Neural-Gate Neuron Routing</div>
+      <div>http://nicewang.github.io/niceproject/2023/04/24/attention-and-neural-gate/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>NiceWang</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>April 24, 2023</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/niceproject/2023/04/27/ernie-recall/" title="Ernie-Based Recalling">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Ernie-Based Recalling</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/niceproject/2023/04/19/ship-identification/" title="Ship Identification - Ship Detection of Images by SSD with Dehazing">
+                        <span class="hidden-mobile">Ship Identification - Ship Detection of Images by SSD with Dehazing</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <span>Powered by:</span> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <span>Theme:</span> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/niceproject/js/events.js" ></script>
+<script  src="/niceproject/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/niceproject/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/niceproject/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/niceproject/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
