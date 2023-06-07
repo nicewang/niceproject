@@ -17,9 +17,11 @@ date: 2023-05-08 18:38:39
 
 #### <font face="Times">2021</font>
 
+&emsp;&emsp;<font face="Times">[FUEL (RA-L)](https://nicewang.github.io/niceproject/learning/robotics/fuel.pdf)</font>
+
 &emsp;&emsp;<font face="Times">[VPT-TOB (ICRA)](https://nicewang.github.io/niceproject/learning/robotics/vpt_tob.pdf)</font>
 
-&emsp;&emsp;<font face="Times">[LMTD-RRT (ICRA)](https://nicewang.github.io/niceproject/learning/robotics/lmtd_rrt.pdf)</font>
+&emsp;&emsp;<font face="Times">[LMTD-RRT (RA-L, presented at ICRA)](https://nicewang.github.io/niceproject/learning/robotics/lmtd_rrt.pdf)</font>
 
 
 #### <font face="Times">[Intensive Reading of Classic Papers](https://nicewang.github.io/niceproject/learning/robotics/classic)</font>
