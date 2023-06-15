@@ -23,5 +23,8 @@ date: 2023-05-08 18:38:39
 
 &emsp;&emsp;<font face="Times">[LMTD-RRT (RA-L, presented at ICRA)](https://nicewang.github.io/niceproject/learning/robotics/lmtd_rrt.pdf)</font>
 
+#### <font face="Times">2019~2020</font>
+
+&emsp;&emsp;<font face="Times">[Trajectron (ICCV) and Trajectron++ (ECCV)](https://nicewang.github.io/niceproject/learning/robotics/trajectron.pdf)</font>
 
 #### <font face="Times">[Intensive Reading of Classic Papers](https://nicewang.github.io/niceproject/learning/robotics/classic)</font>
